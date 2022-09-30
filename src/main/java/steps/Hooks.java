@@ -13,8 +13,8 @@ public class Hooks extends CommonMethods {
         initializePageObjects();
     }
 
-//    @After
-//    public void end(Scenario scenario){
-//        tearDown();
-//    }
+    @After
+    public void end(Scenario scenario){
+        tearDown();
+    }
 }

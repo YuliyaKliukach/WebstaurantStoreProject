@@ -63,7 +63,8 @@ public class SearchTableSteps extends CommonMethods {
             }
         }
             jsScrollByElement(homePage.addToCartButton);
-        Thread.sleep(2000);
+        Thread.sleep(3000);
+        //waitForClickability(homePage.addToCartButton);
             click(homePage.addToCartButton);
             click(homePage.viewCartButton);
     }

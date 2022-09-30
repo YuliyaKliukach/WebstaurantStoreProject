@@ -37,8 +37,7 @@ public class CommonMethods extends PageManager{
 
     //wait method
     public static WebDriverWait getWait(){
-        WebDriverWait wait=new WebDriverWait(driver,Constants.EXPLICIT_WAIT);
-        return wait;
+        return new WebDriverWait(driver,Constants.EXPLICIT_WAIT);
     }
 
     //clicking on WebElement
